@@ -31,6 +31,19 @@ body {
   right: -50px;
 }
 
+.banner {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  text-align: center;
+  right: 500px;
+}
+.side-banner {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  right: 0;
+}
 .score {
   position: absolute;
   top: 10px;
@@ -92,7 +105,7 @@ body {
 }
 .game-over {
   position: absolute;
-  top: 40%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Comic Sans MS", cursive;
